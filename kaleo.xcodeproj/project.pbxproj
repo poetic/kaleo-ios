@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5799913434DA347341225C4B /* Pods_kaleo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 971D7D3B5B104F934A9FA892 /* Pods_kaleo.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		8B14D7FD1E7DA48F00B83746 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B14D7FC1E7DA48F00B83746 /* AppDelegate.swift */; };
+		8B14D8021E7DA48F00B83746 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B14D8001E7DA48F00B83746 /* Main.storyboard */; };
+		8B14D8041E7DA48F00B83746 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B14D8031E7DA48F00B83746 /* Assets.xcassets */; };
+		8B14D8071E7DA48F00B83746 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B14D8051E7DA48F00B83746 /* LaunchScreen.storyboard */; };
+		8B14D8101E7DA5F400B83746 /* PushKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B14D80F1E7DA5F400B83746 /* PushKit.framework */; };
+		8B14D8121E7DA5FA00B83746 /* CallKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B14D8111E7DA5FA00B83746 /* CallKit.framework */; };
+		8B14D81A1E7F9BA400B83746 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B14D8191E7F9BA400B83746 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02132B4EC71358845E4B0E2E /* Pods-kaleo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kaleo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kaleo/Pods-kaleo.debug.xcconfig"; sourceTree = "<group>"; };
+		5A36FA55288F67CC6FABE375 /* Pods-kaleo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kaleo.release.xcconfig"; path = "Pods/Target Support Files/Pods-kaleo/Pods-kaleo.release.xcconfig"; sourceTree = "<group>"; };
+		8B14D7F91E7DA48F00B83746 /* kaleo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kaleo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B14D7FC1E7DA48F00B83746 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B14D8011E7DA48F00B83746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B14D8031E7DA48F00B83746 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B14D8061E7DA48F00B83746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B14D8081E7DA48F00B83746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B14D80E1E7DA5C900B83746 /* kaleo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = kaleo.entitlements; sourceTree = "<group>"; };
+		8B14D80F1E7DA5F400B83746 /* PushKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PushKit.framework; path = System/Library/Frameworks/PushKit.framework; sourceTree = SDKROOT; };
+		8B14D8111E7DA5FA00B83746 /* CallKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CallKit.framework; path = System/Library/Frameworks/CallKit.framework; sourceTree = SDKROOT; };
+		8B14D8191E7F9BA400B83746 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		971D7D3B5B104F934A9FA892 /* Pods_kaleo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kaleo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B14D7F61E7DA48F00B83746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B14D8121E7DA5FA00B83746 /* CallKit.framework in Frameworks */,
+				8B14D8101E7DA5F400B83746 /* PushKit.framework in Frameworks */,
+				5799913434DA347341225C4B /* Pods_kaleo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A5C8EE59937A51FC9533327 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02132B4EC71358845E4B0E2E /* Pods-kaleo.debug.xcconfig */,
+				5A36FA55288F67CC6FABE375 /* Pods-kaleo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8B14D7F01E7DA48E00B83746 = {
+			isa = PBXGroup;
+			children = (
+				8B14D7FB1E7DA48F00B83746 /* kaleo */,
+				8B14D7FA1E7DA48F00B83746 /* Products */,
+				0A5C8EE59937A51FC9533327 /* Pods */,
+				AC7A7014C658649182980FA8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8B14D7FA1E7DA48F00B83746 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B14D7F91E7DA48F00B83746 /* kaleo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B14D7FB1E7DA48F00B83746 /* kaleo */ = {
+			isa = PBXGroup;
+			children = (
+				8B14D80E1E7DA5C900B83746 /* kaleo.entitlements */,
+				8B14D7FC1E7DA48F00B83746 /* AppDelegate.swift */,
+				8B14D8191E7F9BA400B83746 /* ViewController.swift */,
+				8B14D8001E7DA48F00B83746 /* Main.storyboard */,
+				8B14D8031E7DA48F00B83746 /* Assets.xcassets */,
+				8B14D8051E7DA48F00B83746 /* LaunchScreen.storyboard */,
+				8B14D8081E7DA48F00B83746 /* Info.plist */,
+			);
+			path = kaleo;
+			sourceTree = "<group>";
+		};
+		AC7A7014C658649182980FA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B14D8111E7DA5FA00B83746 /* CallKit.framework */,
+				8B14D80F1E7DA5F400B83746 /* PushKit.framework */,
+				971D7D3B5B104F934A9FA892 /* Pods_kaleo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B14D7F81E7DA48F00B83746 /* kaleo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B14D80B1E7DA48F00B83746 /* Build configuration list for PBXNativeTarget "kaleo" */;
+			buildPhases = (
+				593B67043DF131AA431F9E04 /* [CP] Check Pods Manifest.lock */,
+				8B14D7F51E7DA48F00B83746 /* Sources */,
+				8B14D7F61E7DA48F00B83746 /* Frameworks */,
+				8B14D7F71E7DA48F00B83746 /* Resources */,
+				33865604667A2D8D3AD88B69 /* [CP] Embed Pods Frameworks */,
+				5DF8259664C387375E2DC096 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kaleo;
+			productName = kaleo;
+			productReference = 8B14D7F91E7DA48F00B83746 /* kaleo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B14D7F11E7DA48E00B83746 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Poetic Systems";
+				TargetAttributes = {
+					8B14D7F81E7DA48F00B83746 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = M37WQS4429;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 8B14D7F41E7DA48E00B83746 /* Build configuration list for PBXProject "kaleo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B14D7F01E7DA48E00B83746;
+			productRefGroup = 8B14D7FA1E7DA48F00B83746 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B14D7F81E7DA48F00B83746 /* kaleo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B14D7F71E7DA48F00B83746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B14D8071E7DA48F00B83746 /* LaunchScreen.storyboard in Resources */,
+				8B14D8041E7DA48F00B83746 /* Assets.xcassets in Resources */,
+				8B14D8021E7DA48F00B83746 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33865604667A2D8D3AD88B69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kaleo/Pods-kaleo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		593B67043DF131AA431F9E04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5DF8259664C387375E2DC096 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kaleo/Pods-kaleo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B14D7F51E7DA48F00B83746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B14D81A1E7F9BA400B83746 /* ViewController.swift in Sources */,
+				8B14D7FD1E7DA48F00B83746 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8B14D8001E7DA48F00B83746 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B14D8011E7DA48F00B83746 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B14D8051E7DA48F00B83746 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B14D8061E7DA48F00B83746 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B14D8091E7DA48F00B83746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B14D80A1E7DA48F00B83746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B14D80C1E7DA48F00B83746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02132B4EC71358845E4B0E2E /* Pods-kaleo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = kaleo/kaleo.entitlements;
+				DEVELOPMENT_TEAM = M37WQS4429;
+				INFOPLIST_FILE = kaleo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.poeticsystems.kaleo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8B14D80D1E7DA48F00B83746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A36FA55288F67CC6FABE375 /* Pods-kaleo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = kaleo/kaleo.entitlements;
+				DEVELOPMENT_TEAM = M37WQS4429;
+				INFOPLIST_FILE = kaleo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.poeticsystems.kaleo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B14D7F41E7DA48E00B83746 /* Build configuration list for PBXProject "kaleo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B14D8091E7DA48F00B83746 /* Debug */,
+				8B14D80A1E7DA48F00B83746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B14D80B1E7DA48F00B83746 /* Build configuration list for PBXNativeTarget "kaleo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B14D80C1E7DA48F00B83746 /* Debug */,
+				8B14D80D1E7DA48F00B83746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B14D7F11E7DA48E00B83746 /* Project object */;
+}

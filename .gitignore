@@ -1,0 +1,8 @@
+.DS_Store
+build/
+Pods/
+Podfile.lock
+SwiftVoiceCallKitQuickstart.xcworkspace
+
+xcuserdata/
+*.xcuserstate
