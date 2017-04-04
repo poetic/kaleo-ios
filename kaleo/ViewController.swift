@@ -1,6 +1,5 @@
 //
 //  ViewController.swift
-//  kaleo
 //
 //  Created by Chuong Le on 3/20/17.
 //  Copyright © 2017 Poetic Systems. All rights reserved.
@@ -13,12 +12,14 @@ import PushKit
 import CallKit
 import TwilioVoiceClient
 
-let baseURLString = "https://260e2e6b.ngrok.io"
+let baseURLString = "https://411db595.ngrok.io"
 let accessTokenEndpoint = "/access-token"
 
 class ViewController: UIViewController, PKPushRegistryDelegate, TVONotificationDelegate, TVOCallDelegate, CXProviderDelegate {
     
     @IBOutlet weak var placeCallButton: UIButton!
+    @IBOutlet weak var hangupButton: UIButton!
+    @IBOutlet weak var speakerButton: UIButton!
     @IBOutlet weak var iconView: UIImageView!
     
     // Get Device info
@@ -117,6 +118,18 @@ class ViewController: UIViewController, PKPushRegistryDelegate, TVONotificationD
     //         performStartCallAction(uuid: uuid, handle: handle)
     //     }
     // }
+    
+     @IBAction func hangupCall(_ sender: UIButton) {
+        if (self.call != nil && self.call?.state == .connected) {
+            self.call?.disconnect()
+        }
+     }
+    
+    @IBAction func speakerOn(_ sender: UIButton) {
+        if (self.call != nil && self.call?.state == .connected) {
+            routeAudioToSpeaker()
+        }
+    }
     
     
     // MARK: PKPushRegistryDelegate
@@ -256,14 +269,14 @@ class ViewController: UIViewController, PKPushRegistryDelegate, TVONotificationD
     }
     
     
-    // MARK: AVAudioSession
-    // func routeAudioToSpeaker() {
-    //     do {
-    //         try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayAndRecord, with: .defaultToSpeaker)
-    //     } catch {
-    //         NSLog(error.localizedDescription)
-    //     }
-    // }
+     // MARK: AVAudioSession
+     func routeAudioToSpeaker() {
+         do {
+             try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayAndRecord, with: .defaultToSpeaker)
+         } catch {
+             NSLog(error.localizedDescription)
+         }
+     }
     
     
     // MARK: Icon spinning
